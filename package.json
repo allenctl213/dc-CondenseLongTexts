@@ -1,0 +1,23 @@
+{
+    "type": "module",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "name": "discord-ai-thread-bot",
+    "version": "1.0.0",
+    "description": "將 AI 長回覆整理成 Discord Thread 的 bot",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsx index.ts"
+    },
+    "dependencies": {
+        "discord.js": "^14.0.0",
+        "dotenv": "^16.0.0",
+        "eslint-plugin-neverthrow": "^1.1.4",
+        "neverthrow": "^8.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^26.0.1",
+        "tsx": "^4.22.4",
+        "typescript": "^6.0.3"
+    }
+}
